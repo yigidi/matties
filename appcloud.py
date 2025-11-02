@@ -1462,8 +1462,7 @@ def api_comments(post_id):
 # -------------------- ÇALIŞTIR & VERİTABANI BAŞLATMA (Aynı kaldı) --------------------
 
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8080
-                              ))
+    port = int(os.environ.get("PORT", 8080))
     print("Veritabanı başlatılıyor (site.db)...")
 
     # Uygulama bağlamında veritabanını oluştur

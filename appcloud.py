@@ -198,6 +198,8 @@ def can_view_posts(owner_id: int, viewer_id: Optional[int]) -> bool:
 PAGE = """<!DOCTYPE html>
 <html lang="tr">
 <head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9564931444103239"
+     crossorigin="anonymous"></script>
 <meta charset="utf-8">
 <title>MATTIES</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -1071,6 +1073,8 @@ def handle_webrtc_signal(data):
 LIVE_STREAM_PAGE_TEMPLATE = """<!DOCTYPE html>
 <html lang="tr">
 <head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9564931444103239"
+     crossorigin="anonymous"></script>
 <meta charset="utf-8">
 <title>CANLI YAYIN: {{ streamer_user }}</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -1285,6 +1289,8 @@ LIVE_STREAM_PAGE_TEMPLATE = """<!DOCTYPE html>
 LIVE_VIEWER_PAGE_TEMPLATE = """<!DOCTYPE html>
 <html lang="tr">
 <head>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9564931444103239"
+     crossorigin="anonymous"></script>
 <meta charset="utf-8">
 <title>CANLI YAYIN İZLE: {{ streamer_user }}</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
